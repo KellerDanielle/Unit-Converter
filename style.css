@@ -1,0 +1,21 @@
+body {
+  background-color: rgb(71, 73, 72);
+  padding: 20px;
+  color: rgb(0, 0, 0);
+}
+
+h1 {
+  padding: 20px;
+  background-color: rgb(142, 199, 159);
+  border-radius: 5px;
+  font-family: cursive;
+}
+
+p {
+  background-color: rgb(142, 199, 159);
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  width: 200px;
+  height: 20px;
+  padding: 5px;
+}

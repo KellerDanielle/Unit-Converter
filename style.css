@@ -1,21 +1,31 @@
 body {
-  background-color: rgb(71, 73, 72);
+  background-color: tan;
   padding: 20px;
-  color: rgb(0, 0, 0);
 }
 
 h1 {
   padding: 20px;
-  background-color: rgb(142, 199, 159);
+  background-color: ivory;
   border-radius: 5px;
-  font-family: cursive;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  border-radius: 20px;
 }
 
 p {
-  background-color: rgb(142, 199, 159);
-  color: rgb(0, 0, 0);
+  background-color: ivory;
   border-radius: 5px;
   width: 200px;
   height: 20px;
   padding: 5px;
+}
+
+.dark-mode {
+  background-color: #333;
+  color: white;
+}
+
+.dark-mode h1, .dark-mode p {
+  background-color: #555;
+  color: #eee;
 }

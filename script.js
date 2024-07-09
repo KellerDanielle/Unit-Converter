@@ -23,4 +23,8 @@ function convert() {
     // Update the result element with the calculated value
     document.getElementById("resultElement").innerHTML = result;
   }
-  
+
+function toggleDarkMode() {
+  // Turns on/off Dark Mode
+  document.body.classList.toggle('dark-mode');
+}
